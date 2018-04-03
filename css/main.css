@@ -18,9 +18,16 @@ img {
 }
 /* text  ******************************/
 
-.white_text_reg {
+.white_text_large {
     font-family: AvenirNext-Regular;
     font-size: 3.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
     color: #FFFFFF;
     letter-spacing: 0;
 }
@@ -204,6 +211,24 @@ img {
     background-color: #CDD716;
     padding: 2vh 4vw;
 }
+
+.scuba_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.blue_title {
+font-family: AvenirNext-Medium;
+font-size: 20px;
+color: #00C3EE;
+letter-spacing: 0;
+}
+
 /* text  ******************************/
 
 /* nav  ******************************/
@@ -534,32 +559,170 @@ width:100%;
 
 }
 
+.scuba_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:0;
+}
+
 .scuba_photo_row  img {
 
 }
 
 .scuba_image1 {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/leaves_pool.jpeg');
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/leaves_pool.jpeg');
     background-size: cover;
     background-position: center center;
     height: 80vh;
     width: 33vw;
+
+}
+
+.scuba_image1:hover{
+    height: 80vh;
+    width: 50vw;
+    transition: 0.9s all;
+}
+
+.scuba_image1:hover .scuba_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.scuba_image1:hover .scuba_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 0.9s all;
+}
+
+
+.scuba_image2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat1.jpeg');
+    background-size: cover;
+    background-position: center center;
     height: 80vh;
     width: 33vw;
 }
 
-.scuba_image2 {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/boat1.jpeg');
-    background-size: cover;
-    background-position: center center;
+.scuba_image2:hover{
     height: 80vh;
-    width: 33vw;
+    width: 50vw;
+    transition: 0.9s all;
+}
+
+
+.scuba_image2:hover .scuba_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.scuba_image2:hover .scuba_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 0.9s all;
 }
 
 .scuba_image3 {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/boat2.jpeg');
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat2.jpeg');
     background-size: cover;
     background-position: center center;
     height: 80vh;
-    width: 33vw;
+    width: 34vw;
+}
+
+.scuba_image3:hover{
+    height: 80vh;
+    width: 50vw;
+    transition: 0.9s all;
+}
+
+
+.scuba_image3:hover .scuba_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.scuba_image3:hover .scuba_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 0.9s all;
+}
+
+
+.section_testimonial {
+    height:100vh;
+    width:100vw;
+}
+
+
+/* contact us section */
+
+.section_contact {
+    width:100vw;
+}
+
+.contact_title {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_column {
+    background-color: #FDFDF3;
+}
+
+.map {
+    height:100%;
+    width:100%;
 }
