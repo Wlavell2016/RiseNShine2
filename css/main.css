@@ -126,7 +126,6 @@ img {
 }
 
 
-
 .title_black_uppercase {
     font-family:  AvenirNext-Regular;
     font-size: 3.75rem;
@@ -139,7 +138,7 @@ img {
 .title_green_uppercase {
     font-family:  AvenirNext-Regular;
     font-size: 3.75rem;
-    color: #333333;
+    color: #CDD716;
     letter-spacing: 0;
     line-height: 5.063rem;
     text-transform: uppercase;
@@ -514,4 +513,53 @@ width:100%;
 
 .res_10 {
     display:none;
+}
+
+/* scuba************ */
+
+.scuba_section {
+    height: 100vh;
+    width:100vw;
+}
+.scuba_title {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scuba_photo_row {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.scuba_photo_row  img {
+
+}
+
+.scuba_image1 {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/leaves_pool.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    width: 33vw;
+    height: 80vh;
+    width: 33vw;
+}
+
+.scuba_image2 {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/boat1.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    width: 33vw;
+}
+
+.scuba_image3 {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/boat2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    width: 33vw;
 }
