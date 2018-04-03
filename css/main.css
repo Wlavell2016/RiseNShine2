@@ -118,6 +118,14 @@ img {
     line-height: 26px;
 }
 
+.residential_button_col .p_grey_small:hover {
+    border: solid 2px #CDD716;
+    background-color: #CDD716;
+    padding: 2vh 4vw;
+
+}
+
+
 
 .title_black_uppercase {
     font-family:  AvenirNext-Regular;
@@ -190,6 +198,12 @@ img {
     border: solid 2px #CDD716;
     background-color: #CDD716;
     padding: 4vh 4vw;
+}
+
+.residential_button_active {
+    border: solid 2px #CDD716;
+    background-color: #CDD716;
+    padding: 2vh 4vw;
 }
 /* text  ******************************/
 
@@ -426,7 +440,7 @@ width:100%;
 #com_5_image {
     display:none;
     height: 80vh;
-    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/broom.jpeg');
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/counter.jpeg');
     background-size: cover;
     background-position: center center;
     width:100%;
@@ -442,4 +456,62 @@ width:100%;
     width:100%;
     flex-direction: column;
 }
-/* Shape: */
+/* Residential************ */
+
+.residential_section {
+    height: 100Vh;
+    width:100vw;
+}
+
+.residential img {
+    width:100%;
+    height: 65vh;
+}
+.residential_button_col {
+    /* background-color: #FDFDF3; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
+
+.res_1 {
+    display:block;
+}
+
+.res_2 {
+    display:none;
+}
+
+.res_3 {
+    display:none;
+}
+
+.res_4 {
+    display:none;
+}
+
+.res_5 {
+    display:none;
+}
+
+.res_6 {
+    display:none;
+}
+
+.res_7 {
+    display:none;
+}
+
+.res_8 {
+    display:none;
+}
+
+.res_9 {
+    display:none;
+}
+
+.res_10 {
+    display:none;
+}
