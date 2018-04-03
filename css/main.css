@@ -1,0 +1,445 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+  /* background-color: rgba(28,28,28,1.0); */
+  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.outline {
+    border: black solid 2px;
+}
+
+img {
+    transition: 0.9s all;
+}
+/* text  ******************************/
+
+.white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 3.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+ .h1_white_uppercase  {
+    font-family: AvenirNext-Regular;
+    font-size: 5.563rem;
+    color: #FFFFFF;
+    letter-spacing: 2.4px;
+    line-height: 80px;
+    /* letter-spacing: 2.4px; */
+}
+
+
+ .h1_green_Uppercase  {
+    font-family: AvenirNext-Regular;
+    font-size: 5.563rem;
+    /* font-size: 59px; */
+    color: #CDD716;
+    letter-spacing: 2.4px;
+    line-height: 80px;
+    /* letter-spacing: 2.4px; */
+
+}
+
+
+.h2_black {
+    font-family:  AvenirNext-Regular;
+    font-size: 5.25rem;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+}
+
+.h2_green {
+    font-family:  AvenirNext-Regular;
+    font-size: 5.25rem;
+    color: #CDD716;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+}
+
+.h3_green {
+    font-family:  AvenirNext-Regular;
+    font-size: 3.188rem;
+    color: #CDD716;
+    letter-spacing: 0;
+}
+
+.p_white_small {
+    font-family: AvenirNext-Medium;
+    font-size: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 1.438rem;
+}
+
+.p_white_medium {
+    font-family: AvenirNext-Medium;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.p_white_scuba_uppercase {
+    font-family: AvenirNext-Bold;
+    font-size: 1.813rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.p_black_small {
+    font-family: AvenirNext-Medium;
+    font-size: 1rem;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 1.438rem;
+}
+
+.p_black_medium {
+    font-family: AvenirNext-Medium;
+    font-size: 1.5rem;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 1.438rem;
+}
+
+
+.p_grey_small {
+    font-family: AvenirNext-Regular;
+    font-size: 1rem;
+    color: #6B6B6B;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+
+.title_black_uppercase {
+    font-family:  AvenirNext-Regular;
+    font-size: 3.75rem;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+    text-transform: uppercase;
+}
+
+.title_green_uppercase {
+    font-family:  AvenirNext-Regular;
+    font-size: 3.75rem;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+    text-transform: uppercase;
+}
+
+.title_white {
+    font-family:  AvenirNext-Regular;
+    font-size: 5rem;
+    color: #FFFF;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+    text-transform: uppercase;
+}
+
+.green_lower_medium {
+    font-family:  AvenirNext-Regular;
+    font-size: 3.188rem;
+    color: #CDD716;
+    letter-spacing: 0;
+}
+
+.green_upper_case {
+    font-family: Arial-Black;
+    font-size: 3.75rem;
+    color: #CDD716;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+    text-transform: uppercase;
+}
+
+.black_uppercase {
+    font-family: Arial-Black;
+    font-size: 3.75rem;
+    color: #CDD716;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+    text-transform: uppercase;
+}
+
+.commercial_button {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    color: #9C9C9C;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.commercial_button:hover {
+    border: solid 2px #CDD716;
+    background-color: #CDD716;
+    padding: 4vh 4vw;
+}
+
+.commercial_button_active {
+    border: solid 2px #CDD716;
+    background-color: #CDD716;
+    padding: 4vh 4vw;
+}
+/* text  ******************************/
+
+/* nav  ******************************/
+.navbar-brand img {
+    height: 121px;
+    width: 111px;
+    transition: 0.9s all;
+}
+
+.navbar {
+    height: 10vh;
+}
+
+.nav3 {
+    background-color: #FFF;
+    transition: 0.9s all;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+}
+.nav-link:hover, .nav-link:focus {
+    border-bottom-color: #cdd716;
+    border-top-color: #cdd716;
+    color: #cdd716!important;
+}
+
+.nav-link {
+    padding: .45rem 0;
+    font-weight: 700;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+    color: #fff;
+    margin-left: 2vw;
+}
+
+a.nav-link.active {
+    color: #cdd716!important;
+    border-bottom-color: #cdd716;
+    border-top-color: #cdd716;
+    transition: 0.9s all;
+
+}
+
+a.nav-link {
+
+    transition: 0.5s all;
+
+}
+
+/* nav  ******************************/
+
+
+/* cover  ******************************/
+.section_cover {
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/window1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    border: solid black 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cover_content {
+    width: 70vw;
+    position:relative;
+    top:15vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display:flex;
+    flex-direction: row;
+
+}
+.column1 {
+    width: 35vw;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.column2 {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.first_row {
+display:flex;
+flex-direction: row;
+justify-content: flex-start;
+flex: 1;
+width:100%;
+}
+
+.second_row {
+    display:flex;
+    flex-direction: column;
+}
+
+.third_row {
+    display:flex;
+    flex-direction: column;
+}
+
+.fourth_row {
+    display:flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+/* About us  ******************************/
+.section_intro {
+    height: 100vh;
+    width:100vw;
+}
+
+.con_intro {
+    margin-top: 20vh;
+}
+
+.row1 {
+    height: 20vh;
+    width:100%;
+}
+
+.svg_images {
+    height: 50px;
+    width:50px;
+    margin: 1vw;
+}
+
+.image_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* About us  ******************************/
+.commercial_section {
+    height:100vh;
+    width:100vw;
+}
+.commercial_button_row {
+    height:10vh;
+    background-color: #FDFDF3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.commercial_text_row {
+    margin-top: 10vh;
+}
+
+.commercial_title_row {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.row_middle {
+    height:20vh;
+}
+
+/* .commercial_text_row {
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} */
+
+.commercial_text_box{
+    border: solid white 1.05em;
+    padding: 5vh 5vw;
+}
+
+#com_1_image {
+    display:flex;
+    height: 80vh;
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/high_rise_window.jpeg');
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    flex-direction: column;
+}
+
+#com_2_image {
+    display: none;
+    height:80vh;
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/irata.jpg');
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    flex-direction: column;
+}
+
+
+
+#com_3_image {
+    display:none;
+    height: 80vh;
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/power2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    flex-direction: column;
+}
+
+#com_4_image {
+    display:none;
+    height: 80vh;
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/small_snow.jpg');
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    flex-direction: column;
+}
+
+#com_5_image {
+    display:none;
+    height: 80vh;
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/broom.jpeg');
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    flex-direction: column;
+}
+
+#com_6_image {
+    display:none;
+    height: 80vh;
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/aga.jpg');
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    flex-direction: column;
+}
+/* Shape: */
