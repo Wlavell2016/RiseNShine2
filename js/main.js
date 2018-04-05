@@ -1,196 +1,210 @@
-$('#com_1').on("click", function(event){
+$('#com_1').hover(function(event){
     console.log('fired')
-    $('#com_2').addClass('commercial_button_active')
-    $('#com_1').removeClass('commercial_button_active')
-    $('#com_3').removeClass('commercial_button_active')
-    $('#com_4').removeClass('commercial_button_active')
-    $('#com_5').removeClass('commercial_button_active')
-    $('#com_6').removeClass('commercial_button_active')
-    $('#com_1_image').fadeIn(2000)
-    $('#com_1_image').css('display', 'flex')
-    $('#com_2_image').css('display', 'none')
-    $('#com_3_image').css('display', 'none')
-    $('#com_4_image').css('display', 'none')
-    $('#com_5_image').css('display', 'none')
-    $('#com_6_image').css('display', 'none')
+    $('.commercial_button').removeClass('commercial_button_active')
+    $(this).toggleClass('commercial_button_active')
+    $('.com_image').css('opacity', '0.01')
+    $('#com_1_image').css('opacity', '0.9')
+    $('com_image .commercial_text_row').css('transform', 'scale(0,0)')
+    $('#com_1_image .commercial_text_row').css('transform', 'scale(1,1)')
 });
 
-$('#com_2').on("click", function(event){
-    $('#com_2').addClass('commercial_button_active')
-    $('#com_1').removeClass('commercial_button_active')
-    $('#com_3').removeClass('commercial_button_active')
-    $('#com_4').removeClass('commercial_button_active')
-    $('#com_5').removeClass('commercial_button_active')
-    $('#com_6').removeClass('commercial_button_active')
-    $('#com_2_image').fadeIn(2000)
-    $('#com_2_image').css('display', 'flex')
-    $('#com_1_image').css('display', 'none')
-    $('#com_3_image').css('display', 'none')
-    $('#com_4_image').css('display', 'none')
-    $('#com_5_image').css('display', 'none')
-    $('#com_6_image').css('display', 'none')
-})
-
-
-$('#com_3').on("click", function(event){
+$('#com_2').hover(function(event){
     console.log('fired')
-    $('#com_3').addClass('commercial_button_active')
-    $('#com_1').removeClass('commercial_button_active')
-    $('#com_2').removeClass('commercial_button_active')
-    $('#com_4').removeClass('commercial_button_active')
-    $('#com_5').removeClass('commercial_button_active')
-    $('#com_6').removeClass('commercial_button_active')
-    $('#com_3_image').fadeIn(2000)
-    $('#com_3_image').css('display', 'flex')
-    $('#com_1_image').css('display', 'none')
-    $('#com_2_image').css('display', 'none')
-    $('#com_4_image').css('display', 'none')
-    $('#com_5_image').css('display', 'none')
-    $('#com_6_image').css('display', 'none')
-})
+    $('.commercial_button').removeClass('commercial_button_active')
+    $(this).toggleClass('commercial_button_active')
+    $('.com_image').css('opacity', '0.01')
+    $('#com_2_image').css('opacity', '0.9')
+    $('com_image .commercial_text_row').css('transform', 'scale(0,0)')
+    $('#com_2_image .commercial_text_row').css('transform', 'scale(1,1)')
+});
 
-$('#com_4').on("click", function(event){
+$('#com_3').hover(function(event){
     console.log('fired')
+    $('.commercial_button').removeClass('commercial_button_active')
+    $(this).toggleClass('commercial_button_active')
+    $('.com_image').css('opacity', '0.01')
+    $('#com_3_image').css('opacity', '0.9')
+    $('com_image .commercial_text_row').css('transform', 'scale(0,0)')
+    $('#com_3_image .commercial_text_row').css('transform', 'scale(1,1)')
+});
 
-    $('#com_4').addClass('commercial_button_active')
-    $('#com_1').removeClass('commercial_button_active')
-    $('#com_4').removeClass('commercial_button_active')
-    $('#com_2').removeClass('commercial_button_active')
-    $('#com_5').removeClass('commercial_button_active')
-    $('#com_6').removeClass('commercial_button_active')
-    $('#com_4_image').fadeIn(2000)
-    $('#com_4_image').css('display', 'flex')
-    $('#com_1_image').css('display', 'none')
-    $('#com_3_image').css('display', 'none')
-    $('#com_2_image').css('display', 'none')
-    $('#com_5_image').css('display', 'none')
-    $('#com_6_image').css('display', 'none')
-})
+$('#com_4').hover(function(event){
+    console.log('fired')
+    $('.commercial_button').removeClass('commercial_button_active')
+    $(this).toggleClass('commercial_button_active')
+    $('.com_image').css('opacity', '0.01')
+    $('#com_4_image').css('opacity', '0.9')
+    $('com_image .commercial_text_row').css('transform', 'scale(0,0)')
+    $('#com_4_image .commercial_text_row').css('transform', 'scale(1,1)')
+});
 
-$('#com_5').on("click", function(event){
-    $('#com_5').addClass('commercial_button_active')
-    $('#com_1').removeClass('commercial_button_active')
-    $('#com_3').removeClass('commercial_button_active')
-    $('#com_4').removeClass('commercial_button_active')
-    $('#com_5').removeClass('commercial_button_active')
-    $('#com_6').removeClass('commercial_button_active')
-    $('#com_5_image').fadeIn(2000)
-    $('#com_5_image').css('display', 'flex')
-    $('#com_1_image').css('display', 'none')
-    $('#com_3_image').css('display', 'none')
-    $('#com_4_image').css('display', 'none')
-    $('#com_2_image').css('display', 'none')
-    $('#com_6_image').css('display', 'none')
-})
+$('#com_5').hover(function(event){
+    console.log('fired')
+    $('.commercial_button').removeClass('commercial_button_active')
+    $(this).toggleClass('commercial_button_active')
+    $('.com_image').css('opacity', '0.01')
+    $('#com_5_image').css('opacity', '0.9')
+    $('com_image .commercial_text_row').css('transform', 'scale(0,0)')
+    $('#com_5_image .commercial_text_row').css('transform', 'scale(1,1)')
+});
 
-$('#com_6').on("click", function(event){
-    $('#com_6').addClass('commercial_button_active')
-    $('#com_1').removeClass('commercial_button_active')
-    $('#com_3').removeClass('commercial_button_active')
-    $('#com_4').removeClass('commercial_button_active')
-    $('#com_5').removeClass('commercial_button_active')
-    $('#com_6').removeClass('commercial_button_active')
-    // $('#com_2_image').fadeIn(2000)
-    $('#com_6_image').fadeIn(2000)
-    $('#com_6_image').css('display', 'flex')
-    $('#com_2_image').css('display', 'none')
-    $('#com_3_image').css('display', 'none')
-    $('#com_4_image').css('display', 'none')
-    $('#com_5_image').css('display', 'none')
-    $('#com_1_image').css('display', 'none')
-})
+$('#com_6').hover(function(event){
+    console.log('fired')
+    $('.commercial_button').removeClass('commercial_button_active')
+    $(this).toggleClass('commercial_button_active')
+    $('.com_image').css('opacity', '0.01')
+    $('#com_6_image').css('opacity', '0.9')
+    $('com_image .commercial_text_row').css('transform', 'scale(0,0)')
+    $('#com_6_image .commercial_text_row').css('transform', 'scale(1,1)')
+});
+
 
 // residential buttons
-$('#res_1').on("click", function(event){
-    console.log('fired')
-    $('.res_button').removeClass('residential_button_active')
-    $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_1').fadeIn(2000)
-    $('.res_1').css('display', 'block')
-})
 
 
-$('#res_2').on("click", function(event){
+$('#res_1').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/leaves.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_2').fadeIn(2000)
-    $('.res_2').css('display', 'block')
-})
 
-$('#res_3').on("click", function(event){
-    console.log('fired')
-    $('.res_button').removeClass('residential_button_active')
-    $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_3').fadeIn(2000)
-    $('.res_3').css('display', 'block')
-})
+});
 
-$('#res_4').on("click", function(event){
+$('#res_2').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/snow2.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_4').fadeIn(2000)
-    $('.res_4').css('display', 'block')
-})
+});
 
-$('#res_5').on("click", function(event){
+$('#res_3').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/squeegee.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_5').fadeIn(2000)
-    $('.res_5').css('display', 'block')
-})
+});
 
-$('#res_6').on("click", function(event){
+$('#res_4').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/moving.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_6').fadeIn(2000)
-    $('.res_6').css('display', 'block')
-})
+});
 
-$('#res_7').on("click", function(event){
+$('#res_5').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/power.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_7').fadeIn(2000)
-    $('.res_7').css('display', 'block')
-})
+});
 
-$('#res_8').on("click", function(event){
+$('#res_6').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/construction.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_8').fadeIn(2000)
-    $('.res_8').css('display', 'block')
-})
+});
 
-$('#res_9').on("click", function(event){
+$('#res_7').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/carpet.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_9').fadeIn(2000)
-    $('.res_9').css('display', 'block')
-})
+});
 
-$('#res_10').on("click", function(event){
+$('#res_8').hover(function(event){
     console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/lights.jpeg")');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-    $('.res_image').css('display', 'none')
-    $('.res_10').fadeIn(2000)
-    $('.res_10').css('display', 'block')
-})
+});
+
+$('#res_9').hover(function(event){
+    console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/sink1.jpeg")');
+    $('.res_button').removeClass('residential_button_active')
+    $(this).toggleClass('residential_button_active')
+});
+
+$('#res_10').hover(function(event){
+    console.log('fired')
+    $('.res_1').css('background-image', 'url("images/residential/mopping.jpeg")');
+    $('.res_button').removeClass('residential_button_active')
+    $(this).toggleClass('residential_button_active')
+});
+
+// $('#res_3').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_3').fadeIn(2000)
+//     $('.res_3').css('display', 'block')
+// })
+//
+// $('#res_4').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_4').fadeIn(2000)
+//     $('.res_4').css('display', 'block')
+// })
+//
+// $('#res_5').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_5').fadeIn(2000)
+//     $('.res_5').css('display', 'block')
+// })
+//
+// $('#res_6').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_6').fadeIn(2000)
+//     $('.res_6').css('display', 'block')
+// })
+//
+// $('#res_7').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_7').fadeIn(2000)
+//     $('.res_7').css('display', 'block')
+// })
+//
+// $('#res_8').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_8').fadeIn(2000)
+//     $('.res_8').css('display', 'block')
+// })
+//
+// $('#res_9').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_9').fadeIn(2000)
+//     $('.res_9').css('display', 'block')
+// })
+//
+// $('#res_10').on("click", function(event){
+//     console.log('fired')
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+//     $('.res_image').css('display', 'none')
+//     $('.res_10').fadeIn(2000)
+//     $('.res_10').css('display', 'block')
+// })
+
 
 
 

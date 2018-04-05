@@ -6,7 +6,7 @@
 body {
   /* background-color: rgba(28,28,28,1.0); */
   /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 }
 
 .outline {
@@ -197,13 +197,16 @@ img {
 .commercial_button:hover {
     border: solid 2px #CDD716;
     background-color: #CDD716;
-    padding: 4vh 4vw;
+    padding: 2.5vh 4vw;
+    transition: 0.5s all;
 }
 
 .commercial_button_active {
     border: solid 2px #CDD716;
     background-color: #CDD716;
-    padding: 4vh 4vw;
+    padding: 2.5vh 4vw;
+    transition: 0.5s all;
+
 }
 
 .residential_button_active {
@@ -243,9 +246,9 @@ letter-spacing: 0;
 }
 
 .nav3 {
-    background-color: #FFF;
+    background-color:#e5e5e5;
     transition: 0.9s all;
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 
 }
 .nav-link:hover, .nav-link:focus {
@@ -380,6 +383,11 @@ width:100%;
     height:100vh;
     width:100vw;
 }
+
+.commercial_section .container-fluid {
+    position:relative;
+}
+
 .commercial_button_row {
     height:10vh;
     background-color: #FDFDF3;
@@ -387,7 +395,6 @@ width:100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .commercial_text_row {
@@ -415,7 +422,7 @@ width:100%;
 } */
 
 .commercial_text_box{
-    border: solid white 1.05em;
+    border: solid white 0.25em;
     padding: 5vh 5vw;
 }
 
@@ -423,63 +430,138 @@ width:100%;
     display:flex;
     height: 80vh;
     background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/high_rise_window.jpeg');
-    background-size: cover;
-    background-position: center center;
     width:100%;
     flex-direction: column;
+    transition:0.9s all;
+    /* opacity: 1; */
+    /* transform:scale(1,1) */
 }
+
+#com_1_image .commercial_text_row {
+     transform:scale(0,0);
+     transition:0.9s all;
+ }
 
 #com_2_image {
-    display: none;
+    position:absolute;
+    top:10vh;
+    left:0;
+    display: flex;
     height:80vh;
-    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/irata.jpg');
+    background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/buildingwindow.jpeg');
     background-size: cover;
     background-position: center center;
     width:100%;
     flex-direction: column;
+    transition:0.9s all;
+    opacity: 0.01;
+    /* transform:scale(0,0); */
 }
 
+#com_2_image .commercial_text_row {
+    transform:scale(0,0);
+    transition:0.9s all;
+}
 
+#com_2_image  .commercial_text_box{
+    border: solid #CDD716 0.25em;
+    padding: 5vh 5vw;
+}
 
 #com_3_image {
-    display:none;
+    display:flex;
+    position:absolute;
+    top:10vh;
+    left:0;
     height: 80vh;
     background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/power2.jpeg');
     background-size: cover;
     background-position: center center;
     width:100%;
     flex-direction: column;
+    transition:0.9s all;
+    opacity: 0.01;
+
 }
 
+#com_3_image .commercial_text_row {
+    transform:scale(0,0);
+    transition:0.9s all;
+}
+
+
 #com_4_image {
-    display:none;
+    display:flex;
+    position:absolute;
+    top:10vh;
+    left:0;
     height: 80vh;
     background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/small_snow.jpg');
     background-size: cover;
     background-position: center center;
     width:100%;
     flex-direction: column;
+    transition:0.9s all;
+    opacity: 0.01;
 }
 
+#com_4_image .commercial_text_row {
+    transform:scale(0,0);
+    transition:0.9s all;
+}
+
+
 #com_5_image {
-    display:none;
+    display:flex;
+    position:absolute;
+    top:10vh;
+    left:0;
     height: 80vh;
     background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/counter.jpeg');
     background-size: cover;
     background-position: center center;
     width:100%;
     flex-direction: column;
+    transition:0.9s all;
+    opacity: 0.01;
+}
+
+
+#com_5_image .commercial_text_row {
+    transform:scale(0,0);
+    transition:0.9s all;
+}
+
+#com_5_image  .commercial_text_box{
+    border: solid #CDD716 0.25em;
+    padding: 5vh 5vw;
 }
 
 #com_6_image {
-    display:none;
+    display:flex;
+    position:absolute;
+    top:10vh;
+    left:0;
     height: 80vh;
     background-image: linear-gradient(rgba(63, 115, 189, 0.5), rgba(63, 115, 189, 0.5)), url('../images/aga.jpg');
     background-size: cover;
     background-position: center center;
     width:100%;
     flex-direction: column;
+    transition:0.9s all;
+    opacity: 0.01;
 }
+
+#com_6_image .commercial_text_row {
+    transform:scale(0,0);
+    transition:0.9s all;
+}
+
+#com_6_image  .commercial_text_box{
+    border: solid #CDD716 0.25em;
+    padding: 5vh 5vw;
+}
+
 /* Residential************ */
 
 .residential_section {
@@ -491,6 +573,7 @@ width:100%;
     width:100%;
     height: 65vh;
 }
+
 .residential_button_col {
     /* background-color: #FDFDF3; */
     display: flex;
@@ -500,8 +583,62 @@ width:100%;
 
 }
 
+
 .res_1 {
     display:block;
+    background-image: url('../images/residential/leaves.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    transition: 0.9s all;
+
+}
+
+#res_1 {
+    cursor:pointer;
+}
+
+#res_2 {
+    cursor:pointer;
+}
+
+#res_3 {
+    cursor:pointer;
+}
+
+#res_4 {
+    cursor:pointer;
+
+}
+
+#res_5 {
+    cursor:pointer;
+
+}
+
+#res_6 {
+    cursor:pointer;
+
+}
+
+#res_7 {
+    cursor:pointer;
+
+}
+
+#res_8 {
+    cursor:pointer;
+
+}
+
+#res_9 {
+    cursor:pointer;
+
+}
+
+#res_10 {
+    cursor:pointer;
+
 }
 
 .res_2 {
@@ -546,6 +683,7 @@ width:100%;
     height: 100vh;
     width:100vw;
 }
+
 .scuba_title {
     display:flex;
     flex-direction: column;
@@ -610,7 +748,7 @@ width:100%;
     color: #FFFFFF;
     letter-spacing: 0;
     opacity:1;
-    transition: 0.9s all;
+    transition: 2.5s all;
 }
 
 
@@ -653,7 +791,7 @@ width:100%;
     color: #FFFFFF;
     letter-spacing: 0;
     opacity:1;
-    transition: 0.9s all;
+    transition: 2.5s all;
 }
 
 .scuba_image3 {
@@ -695,7 +833,7 @@ width:100%;
     color: #FFFFFF;
     letter-spacing: 0;
     opacity:1;
-    transition: 0.9s all;
+    transition: 2.5s all;
 }
 
 
@@ -725,4 +863,36 @@ width:100%;
 .map {
     height:100%;
     width:100%;
+}
+
+/* contact us section */
+
+.footer {
+    background-color: #b2b2b2
+}
+
+.footer_con {
+    background-color: #b2b2b2
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_row {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.footer_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-end;
 }
