@@ -3,16 +3,46 @@
     margin:0;
 }
 
+html {
+    font-size: 16px;
+}
+
+@media(min-width:400px){
+    html {
+        font-size: 15px;
+        }
+}
+
+
+@media(min-width:768px){
+     html {
+         font-size: 15px;
+         }
+    }
+    /* font-size: 5px; */
+
+
+
+
+
 body {
   /* background-color: rgba(28,28,28,1.0); */
   /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
   /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 }
 
+/* .row {
+  padding-right: 0px !important;
+  margin-right: 0px !important;;
+} */
+
 .outline {
     border: black solid 2px;
 }
 
+.outline2 {
+    border: transparent solid 0.5px;
+}
 img {
     transition: 0.9s all;
 }
@@ -116,6 +146,21 @@ img {
     line-height: 1.438rem;
 }
 
+.p_grey_small {
+    font-family: AvenirNext-Medium;
+    font-size: 1rem;
+    color: #777777;
+    letter-spacing: 0;
+    line-height: 1.438rem;
+}
+
+.p_grey_medium {
+    font-family: AvenirNext-Medium;
+    font-size: 1.5rem;
+    color: #777777;
+    letter-spacing: 0;
+    line-height: 1.438rem;
+}
 
 .p_grey_small {
     font-family: AvenirNext-Regular;
@@ -123,6 +168,12 @@ img {
     color: #6B6B6B;
     letter-spacing: 0;
     line-height: 26px;
+}
+.copyright {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .residential_button_col .p_grey_small:hover {
@@ -224,6 +275,15 @@ img {
     text-transform: uppercase;
     cursor:pointer;
 }
+.com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+}
 
 .blue_title {
 font-family: AvenirNext-Medium;
@@ -243,10 +303,16 @@ letter-spacing: 0;
 
 .navbar {
     height: 10vh;
+    /* margin-left: 2vw;
+    margin-right: 2vw; */
+    padding-right: 5vw;
 }
 
 .nav3 {
-    background-color:#e5e5e5;
+    /* background-color:#e5e5e5; */
+    background-color: #252525;
+    /* -left: 2vw; */
+    padding-right: 5vw;
     transition: 0.9s all;
     /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 
@@ -287,7 +353,8 @@ a.nav-link {
 /* cover  ******************************/
 .section_cover {
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
+    padding-bottom: 5vh;
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/window1.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -297,69 +364,126 @@ a.nav-link {
     display:flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: space-between; */
 }
 
-
 .cover_content {
-    width: 70vw;
-    position:relative;
-    top:15vh;
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.second_row {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.column {
-    display:flex;
-    flex-direction: row;
-
-}
-.column1 {
-    width: 35vw;
-    display:flex;
-    flex-direction: column;
-
-}
-
-.column2 {
-    display:flex;
-    flex-direction: column;
-
-}
-
-.first_row {
-display:flex;
-flex-direction: row;
-justify-content: flex-start;
-flex: 1;
-width:100%;
-}
-
-.second_row {
-    display:flex;
-    flex-direction: column;
-}
-
 .third_row {
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
 }
 
 .fourth_row {
     display:flex;
     flex-direction: column;
-    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5vh; */
+}
+
+.cover_content  .h1_white_uppercase  {
+    font-family: AvenirNext-Regular;
+    font-size: 5.563rem;
+    color: #FFFFFF;
+    letter-spacing: 2.4px;
+    line-height: 80px;
+    text-align: center;
+    /* letter-spacing: 2.4px; */
+}
+
+
+.cover_content .h1_green_Uppercase  {
+    font-family: AvenirNext-Regular;
+    font-size: 5.563rem;
+    /* font-size: 59px; */
+    color: #CDD716;
+    letter-spacing: 2.4px;
+    line-height: 80px;
+    text-align: center;
+
+    /* letter-spacing: 2.4px; */
+}
+
+.center {
+    text-align: center;
+}
+@media(min-width:576px) {
+    .cover_content  .h1_white_uppercase  {
+        font-family: AvenirNext-Regular;
+        font-size: 5.563rem;
+        color: #FFFFFF;
+        letter-spacing: 2.4px;
+        line-height: 80px;
+        /* letter-spacing: 2.4px; */
+    }
+
+
+    .cover_content .h1_green_Uppercase  {
+        font-family: AvenirNext-Regular;
+        font-size: 5.563rem;
+        /* font-size: 59px; */
+        color: #CDD716;
+        letter-spacing: 2.4px;
+        line-height: 80px;
+        /* letter-spacing: 2.4px; */
+
+    }
+}
+@media(min-width:992px) {
+    .cover_content  .h1_white_uppercase  {
+        font-family: AvenirNext-Regular;
+        font-size: 5.563rem;
+        color: #FFFFFF;
+        letter-spacing: 2.4px;
+        line-height: 80px;
+        /* letter-spacing: 2.4px; */
+    }
+
+
+    .cover_content .h1_green_Uppercase  {
+        font-family: AvenirNext-Regular;
+        font-size: 5.563rem;
+        /* font-size: 59px; */
+        color: #CDD716;
+        letter-spacing: 2.4px;
+        line-height: 80px;
+        /* letter-spacing: 2.4px; */
+
+    }
+
+    .white_text_large {
+        font-size: 1.563rem
+    }
 }
 
 /* About us  ******************************/
+#about_us {
+    padding-top: 10vh;
+}
 .section_intro {
-    height: 100vh;
+    /* height: 100vh; */
     width:100vw;
+    margin-top: 2vh;
 }
 
 .con_intro {
-    margin-top: 20vh;
 }
 
 .row1 {
@@ -378,14 +502,512 @@ width:100%;
     flex-direction: row;
     align-items: center;
 }
-/* About us  ******************************/
+/* commercial us  ******************************/
 .commercial_section {
-    height:100vh;
+    /* height: 100vh; */
     width:100vw;
+    margin-top: 5vh;
+}
+
+.com_title {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.com_photo_row {
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:0;
+}
+
+.com_photo_row  img {
+
+}
+
+.com_image1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/buildingwindow.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    width: 100%;
+
+}
+
+.com_image1:hover{
+    height: 50vh;
+    width: 100%;
+    transition: 0.9s all;
+}
+
+.com_image1:hover .com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.com_image1:hover .com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 2.5s all;
+}
+
+
+.com_image2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/high_rise_window.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    width: 100%;
+}
+
+.com_image2:hover{
+    height: 50vh;
+    width: 100%;
+    transition: 0.9s all;
+}
+
+
+.com_image2:hover .com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.com_image2:hover .com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 2.5s all;
+}
+
+.com_image3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/power2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    width: 100%;
+}
+
+.com_image3:hover{
+    height: 50vh;
+    width: 100%;
+    transition: 0.9s all;
+}
+
+
+
+@media(min-width:572px) {
+
+    .com_photo_row {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .com_image1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/buildingwindow.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        width: 100%;
+
+    }
+
+    .com_image1:hover{
+        height: 50vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+    .com_image1:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image1:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+
+    .com_image2 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/high_rise_window.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        width: 100%;
+    }
+
+    .com_image2:hover{
+        height: 50vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+
+    .com_image2:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image2:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+    .com_image3 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/power2.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        width: 100%
+    }
+
+    .com_image3:hover{
+        height: 50vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+}
+
+
+@media(min-width:992px) {
+    .com_photo_row {
+        display:flex;
+        flex-direction: row;
+
+    }
+
+    .com_image1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/buildingwindow.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 33vw;
+
+    }
+
+    .com_image1:hover{
+        height: 35vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
+    .com_image1:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image1:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+
+    .com_image2 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/irata.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 33vw;
+    }
+
+    .com_image2:hover{
+        height: 35vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
+
+    .com_image2:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image2:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+    .com_image3 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/power2.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 34vw;
+    }
+
+    .com_image3:hover{
+        height: 35vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
+    .com_image4 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/small_snow.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 33vw;
+
+    }
+
+    .com_image4:hover{
+        height: 35vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
+    .com_image4:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image4:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+
+    .com_image5 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/counter.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 33vw;
+    }
+
+    .com_image5:hover{
+        height: 35vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
+
+    .com_image5:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image5:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+    .com_image6 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/aga.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 34vw;
+    }
+
+    .com_image6:hover{
+        height: 35vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+}
+
+
+.com_image6:hover .com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.com_image6:hover .com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 2.5s all;
+}
+
+
+/* About us  ******************************/
+
+
+
+
+
+
+.commercial_section {
+    width:100vw;
+    margin-top: 10vh;
 }
 
 .commercial_section .container-fluid {
     position:relative;
+    margin-top: 10vh;
+
 }
 
 .commercial_button_row {
@@ -395,6 +1017,7 @@ width:100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .commercial_text_row {
@@ -565,8 +1188,9 @@ width:100%;
 /* Residential************ */
 
 .residential_section {
-    height: 100Vh;
+    /* height: 100Vh; */
     width:100vw;
+    margin-top: 10vh;
 }
 
 .residential img {
@@ -583,14 +1207,66 @@ width:100%;
 
 }
 
-
 .res_1 {
     display:block;
     background-image: url('../images/residential/leaves.jpeg');
     background-size: cover;
     background-position: center center;
-    height: 100%;
+    height: 40vh;
     transition: 0.9s all;
+}
+
+.residential_section .h2_black {
+    font-family:  AvenirNext-Regular;
+    font-size: 3rem;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 5.063rem;
+    text-align: center;
+}
+
+@media(min-width:576px){
+    .res_1 {
+        display:block;
+        background-image: url('../images/residential/leaves.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        transition: 0.9s all;
+    }
+
+    .residential_section .h2_black {
+        font-family:  AvenirNext-Regular;
+        font-size: 4rem;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 5.063rem;
+        text-align: center;
+    }
+
+
+}
+
+
+@media(min-width:992px){
+    .res_1 {
+        display:block;
+        background-image: url('../images/residential/leaves.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        transition: 0.9s all;
+    }
+
+    .residential_section .h2_black {
+        font-family:  AvenirNext-Regular;
+        font-size: 5.25rem;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 5.063rem;
+        text-align: left;
+    }
+
 
 }
 
@@ -677,11 +1353,158 @@ width:100%;
     display:none;
 }
 
-/* scuba************ */
+/* com************ */
+
+
+
+/* moving-section************ */
+
+.moving_section {
+    width:100vw;
+    margin-top: 10vh;
+    /* height: 100vh; */
+}
+
+.moving-row {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moving_row3 {
+    display:flex;
+    flex-direction: column-reverse;
+
+}
+
+.moving_button_col {
+    /* background-color: #FDFDF3; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* height: 65vh; */
+}
+
+#mov_1,
+#mov_2,
+#mov_3,
+#mov_4,
+#mov_5 {
+    cursor:pointer;
+}
+
+.mov_1 {
+    display:block;
+    background-image: url('../images/moving/bathroom.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    transition: 0.9s all;
+}
+
+
+.moving_section .title_black_uppercase {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.moving_section .title_green_uppercase {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.moving_button_col .p_grey_small {
+    font-size: 1.25rem;
+}
+
+.moving_button_col .res_button {
+    margin-top: 0.25vh ;
+    margin-bottom: 0.25vh ;
+
+}
+
+@media(min-width:576px){
+    .mov_1 {
+        display:block;
+        background-image: url('../images/moving/bathroom.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        transition: 0.9s all;
+    }
+
+    .moving_button_col .res_button {
+        margin: 1vh 0;
+    }
+    .moving_section .h2_black {
+        font-family:  AvenirNext-Regular;
+        font-size: 4rem;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 5.063rem;
+        text-align: center;
+    }
+
+    .moving-row {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media(min-width:992px){
+    .mov_1 {
+        display:block;
+        background-image: url('../images/moving/bathroom.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        transition: 0.9s all;
+    }
+
+    .moving_section .title_black_uppercase {
+        font-size: 3.75rem;
+        text-align: center;
+    }
+
+    .moving_section .title_green_uppercase {
+        font-size: 3.75rem;
+        text-align: center;
+    }
+
+    .moving-row {
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .moving_button_col {
+        /* background-color: #FDFDF3; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-items: center; */
+        height: 65vh;
+    }
+    .moving_row3 {
+        display:flex;
+        flex-direction: column;
+
+    }
+}
+
+/* moving-section************ */
 
 .scuba_section {
-    height: 100vh;
+    /* height: 100vh; */
     width:100vw;
+    margin-top: 5vh;
 }
 
 .scuba_title {
@@ -693,9 +1516,10 @@ width:100%;
 
 .scuba_photo_row {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 
 }
+
 
 .scuba_white_text_reg {
     font-family: AvenirNext-Regular;
@@ -717,14 +1541,14 @@ width:100%;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/leaves_pool.jpeg');
     background-size: cover;
     background-position: center center;
-    height: 80vh;
-    width: 33vw;
+    height: 40vh;
+    width: 100%;
 
 }
 
 .scuba_image1:hover{
-    height: 80vh;
-    width: 50vw;
+    height: 50vh;
+    width: 100%;
     transition: 0.9s all;
 }
 
@@ -760,13 +1584,13 @@ width:100%;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat1.jpeg');
     background-size: cover;
     background-position: center center;
-    height: 80vh;
-    width: 33vw;
+    height: 40vh;
+    width: 100%;
 }
 
 .scuba_image2:hover{
-    height: 80vh;
-    width: 50vw;
+    height: 50vh;
+    width: 100%;
     transition: 0.9s all;
 }
 
@@ -802,14 +1626,241 @@ width:100%;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat2.jpeg');
     background-size: cover;
     background-position: center center;
-    height: 80vh;
-    width: 34vw;
+    height: 40vh;
+    width: 100%;
 }
 
 .scuba_image3:hover{
-    height: 80vh;
-    width: 50vw;
+    height: 50vh;
+    width: 100%;
     transition: 0.9s all;
+}
+
+
+
+@media(min-width:572px) {
+
+    .scuba_photo_row {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .scuba_image1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/leaves_pool.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        width: 100%;
+
+    }
+
+    .scuba_image1:hover{
+        height: 50vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+    .scuba_image1:hover .scuba_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .scuba_image1:hover .scuba_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+
+    .scuba_image2 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat1.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        width: 100%;
+    }
+
+    .scuba_image2:hover{
+        height: 50vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+
+    .scuba_image2:hover .scuba_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .scuba_image2:hover .scuba_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+    .scuba_image3 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat2.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        width: 100%
+    }
+
+    .scuba_image3:hover{
+        height: 50vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+}
+
+
+@media(min-width:992px) {
+    .scuba_photo_row {
+        display:flex;
+        flex-direction: row;
+
+    }
+
+    .scuba_image1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/leaves_pool.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 60vh;
+        width: 33vw;
+
+    }
+
+    .scuba_image1:hover{
+        height: 60vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
+    .scuba_image1:hover .scuba_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .scuba_image1:hover .scuba_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+
+    .scuba_image2 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat1.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 60vh;
+        width: 33vw;
+    }
+
+    .scuba_image2:hover{
+        height: 60vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
+
+    .scuba_image2:hover .scuba_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .scuba_image2:hover .scuba_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+    .scuba_image3 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/boat2.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 60vh;
+        width: 34vw;
+    }
+
+    .scuba_image3:hover{
+        height: 60vh;
+        width: 50vw;
+        transition: 0.9s all;
+    }
+
 }
 
 
@@ -838,15 +1889,57 @@ width:100%;
 
 
 .section_testimonial {
-    height:100vh;
     width:100vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 
+@media(min-width: 576px) {
+    .section_testimonial {
+        width:100vw;
+    }
+ }
+
+
+ @media(min-width: 992px) {
+     .section_testimonial .container{
+         width:100vw;
+         /* height:100vh; */
+         margin-top: 10vh;
+     }
+  }
 /* contact us section */
 
 .section_contact {
     width:100vw;
+    /* height:75vh; */
+    padding-top: 5vh;
+    margin-bottom: 10vh
+}
+
+@media(min-width:572px){
+    .section_contact {
+        width:100vw;
+        height:75vh;
+        padding-top: 5vh;
+        margin-bottom: 10vh
+    }
+}
+
+@media(min-width:992px){
+    .section_contact {
+        width:100vw;
+        height:75vh;
+        padding-top: 5vh;
+        margin-bottom: 15vh
+    }
+}
+
+.section_contact a,
+.section_contact a:hover,
+.section_contact a:focus{
+  color: black;
 }
 
 .contact_title {
@@ -856,23 +1949,51 @@ width:100%;
     align-items: center;
 }
 
+.form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    background-color: #FDFDF3;
+}
 .contact_column {
     background-color: #FDFDF3;
 }
 
 .map {
-    height:100%;
+    height:40vh;
     width:100%;
+}
+
+@media(min-width:572px){
+    .map {
+        height:100%;
+        width:100%;
+    }
 }
 
 /* contact us section */
 
-.footer {
-    background-color: #b2b2b2
+.footer_con {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #252525;
+    /* color: #9c9c9c !important!; */
+    /* text-align: center; */
+
 }
 
+
 .footer_con {
-    background-color: #b2b2b2
+    /* background-color: #b2b2b2 */
+    background-color: #252525;
+    margin-top: 10vh;
+
 }
 
 .copyright {
@@ -883,16 +2004,92 @@ width:100%;
 
 }
 
-.footer_row {
+.row_svg {
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
 
+.footer_svg {
+    height: 1.0rem;
+    padding-right: 1rem;
+
+}
+.footer_col2  img {
+    height: 1.5rem;
+}
+
+
+.footer_col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_col3 {
     display: flex;
     flex-direction: column;
-    align-items:  flex-end;
+    justify-content: center;
+    align-items: center;
+    color: #9c9c9c !important!;
+
 }
+
+@media(min-width:992px){
+    .footer_col2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_col3 {
+        display: flex;
+        flex-direction: column;
+        align-items:  flex-end;
+        color: #9c9c9c !important!;
+    }
+}
+
+@media(min-width:992px){
+    .footer_col1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer_col2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer_col3 {
+        display: flex;
+        flex-direction: column;
+        align-items:  flex-end;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: #9c9c9c !important!;
+    }
+}
+
+/* .footer_col3 .info {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.footer_col2 .info {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */

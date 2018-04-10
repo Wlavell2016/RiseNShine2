@@ -1,3 +1,16 @@
+$('a[href*="#"]').click(function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $target = $(target);
+
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+    }, 750, 'swing', function () {
+        window.location.hash = target;
+    });
+});
+
+
 $('#com_1').hover(function(event){
     console.log('fired')
     $('.commercial_button').removeClass('commercial_button_active')
@@ -133,81 +146,42 @@ $('#res_10').hover(function(event){
     $(this).toggleClass('residential_button_active')
 });
 
-// $('#res_3').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_3').fadeIn(2000)
-//     $('.res_3').css('display', 'block')
-// })
-//
-// $('#res_4').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_4').fadeIn(2000)
-//     $('.res_4').css('display', 'block')
-// })
-//
-// $('#res_5').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_5').fadeIn(2000)
-//     $('.res_5').css('display', 'block')
-// })
-//
-// $('#res_6').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_6').fadeIn(2000)
-//     $('.res_6').css('display', 'block')
-// })
-//
-// $('#res_7').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_7').fadeIn(2000)
-//     $('.res_7').css('display', 'block')
-// })
-//
-// $('#res_8').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_8').fadeIn(2000)
-//     $('.res_8').css('display', 'block')
-// })
-//
-// $('#res_9').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_9').fadeIn(2000)
-//     $('.res_9').css('display', 'block')
-// })
-//
-// $('#res_10').on("click", function(event){
-//     console.log('fired')
-//     $('.res_button').removeClass('residential_button_active')
-//     $(this).toggleClass('residential_button_active')
-//     $('.res_image').css('display', 'none')
-//     $('.res_10').fadeIn(2000)
-//     $('.res_10').css('display', 'block')
-// })
 
+// Moving
+$('#mov_1').hover(function(event){
+    console.log('fired')
+    $('.mov_1').css('background-image', 'url("images/moving/bathroom.jpg")');
+    $('.res_button').removeClass('residential_button_active')
+    $(this).toggleClass('residential_button_active')
+});
 
+$('#mov_2').hover(function(event){
+    console.log('fired')
+    $('.mov_1').css('background-image', 'url("images/moving/broom.jpeg")');
+    $('.res_button').removeClass('residential_button_active')
+    $(this).toggleClass('residential_button_active')
+});
 
+$('#mov_3').hover(function(event){
+    console.log('fired')
+    $('.mov_1').css('background-image', 'url("images/moving/vacuuming.jpeg")');
+    $('.res_button').removeClass('residential_button_active')
+    $(this).toggleClass('residential_button_active')
+});
 
+$('#mov_4').hover(function(event){
+    console.log('fired')
+    $('.mov_1').css('background-image', 'url("images/moving/walls.jpeg")');
+    $('.res_button').removeClass('residential_button_active')
+    $(this).toggleClass('residential_button_active')
+});
+
+$('#mov_5').hover(function(event){
+    console.log('fired')
+    $('.mov_1').css('background-image', 'url("images/moving/dusting.jpeg")');
+    $('.res_button').removeClass('residential_button_active')
+    $(this).toggleClass('residential_button_active')
+});
 
 
 // for updating nav bar color
@@ -218,31 +192,31 @@ $(document).ready(function() {
         if (scroll > viewportHeight) {
             if (window.matchMedia("(min-width: 992px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '61px').css('height', '71px')
+                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '61px').css('height', '71px').css('padding-top', '1vh')
                 $('a.nav-link').css('color', '#9C9C9C')
 
             } else if (window.matchMedia("(min-width: 768px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '61px').css('height', '71px')
+                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '61px').css('height', '71px').css('padding-top', '2vh')
             } else if (window.matchMedia("(min-width: 300px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '51px').css('height', '61px')
+                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '51px').css('height', '61px').css('padding-top', '2vh')
             } else {
                 console.log('ok')
             }
         } else {
             if (window.matchMedia("(min-width: 992px)").matches) {
                 $(".navbar").removeClass("nav3");
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '111px').css('height', '121px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '111px').css('height', '110px').css('padding-top', '2vh')
                 $('a.nav-link').css('color', '#FFFF')
 
             } else if (window.matchMedia("(min-width: 768px)").matches) {
                 $(".navbar").removeClass("nav3");
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '111px').css('height', '121px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '111px').css('height', '110px').css('padding-top', '2vh')
 
             } else if (window.matchMedia("(min-width: 300px)").matches) {
                 $(".navbar").removeClass("nav3");
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '71px').css('height', '81px')
+                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '71px').css('height', '81px').css('padding-top', '2vh')
 
             } else {
                 console.log('ok')
