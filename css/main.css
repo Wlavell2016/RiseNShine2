@@ -503,23 +503,18 @@ a.nav-link {
     align-items: center;
 }
 /* commercial us  ******************************/
-.commercial_section {
+.com_section {
     /* height: 100vh; */
     width:100vw;
-    margin-top: 5vh;
+    padding-top: 10vh;
 }
 
-.com_title {
+
+.com_title_row {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.com_photo_row {
-    display:flex;
-    flex-direction: column;
-
 }
 
 
@@ -531,7 +526,10 @@ a.nav-link {
     opacity:0;
 }
 
-.com_photo_row  img {
+
+.com_photo_row {
+    display:flex;
+    flex-direction: column;
 
 }
 
@@ -543,13 +541,13 @@ a.nav-link {
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/buildingwindow.jpeg');
     background-size: cover;
     background-position: center center;
-    height: 40vh;
+    height: 35vh;
     width: 100%;
 
 }
 
 .com_image1:hover{
-    height: 50vh;
+    height: 45vh;
     width: 100%;
     transition: 0.9s all;
 }
@@ -583,15 +581,15 @@ a.nav-link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/high_rise_window.jpeg');
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/irata.jpg');
     background-size: cover;
     background-position: center center;
-    height: 40vh;
+    height: 35vh;
     width: 100%;
 }
 
 .com_image2:hover{
-    height: 50vh;
+    height: 45vh;
     width: 100%;
     transition: 0.9s all;
 }
@@ -628,23 +626,181 @@ a.nav-link {
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/power2.jpeg');
     background-size: cover;
     background-position: center center;
-    height: 40vh;
+    height: 35vh;
     width: 100%;
 }
 
 .com_image3:hover{
-    height: 50vh;
+    height: 45vh;
+    width: 100%;
+    transition: 0.9s all;
+}
+
+.com_image3:hover .com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.com_image3:hover .com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 2.5s all;
+}
+.com_image4 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/small_snow.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+    width: 100%;
+
+}
+
+.com_image4:hover{
+    height: 45vh;
+    width: 100%;
+    transition: 0.9s all;
+}
+
+.com_image4:hover .com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.com_image4:hover .com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 2.5s all;
+}
+
+
+.com_image5 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/counter.jpeg');
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+    width: 100%;
+}
+
+.com_image5:hover{
+    height: 45vh;
+    width: 100%;
+    transition: 0.9s all;
+}
+
+
+.com_image5:hover .com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+}
+
+.com_image5:hover .com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 2.5s all;
+}
+
+.com_image6 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/aga.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+    width: 100%;
+}
+
+.com_image6:hover{
+    height: 45vh;
     width: 100%;
     transition: 0.9s all;
 }
 
 
 
+.com_image6:hover .com_title_text {
+font-family: AvenirNext-Bold;
+font-size: 1.5rem;
+font-size: 29px;
+color: #FFFF;
+letter-spacing: 0;
+text-transform: uppercase;
+cursor:pointer;
+border: solid 2px #cdd725;
+background-color: #cdd725;
+padding: 4vh 4vw;
+transition: 0.9s all;
+}
+
+.com_image6:hover .com_white_text_reg {
+font-family: AvenirNext-Regular;
+font-size: 1.25rem;
+color: #FFFFFF;
+letter-spacing: 0;
+opacity:1;
+transition: 2.5s all;
+}
+
+
+
 @media(min-width:572px) {
+
+    .com_title_row {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
     .com_photo_row {
         display:flex;
-        flex-direction: column;
+        flex-direction: ;
+
     }
 
     .com_image1 {
@@ -655,13 +811,13 @@ a.nav-link {
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/buildingwindow.jpeg');
         background-size: cover;
         background-position: center center;
-        height: 40vh;
+        height: 35vh;
         width: 100%;
 
     }
 
     .com_image1:hover{
-        height: 50vh;
+        height: 45vh;
         width: 100%;
         transition: 0.9s all;
     }
@@ -695,15 +851,15 @@ a.nav-link {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/high_rise_window.jpeg');
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/irata.jpg');
         background-size: cover;
         background-position: center center;
-        height: 40vh;
+        height: 35vh;
         width: 100%;
     }
 
     .com_image2:hover{
-        height: 50vh;
+        height: 45vh;
         width: 100%;
         transition: 0.9s all;
     }
@@ -740,17 +896,168 @@ a.nav-link {
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/power2.jpeg');
         background-size: cover;
         background-position: center center;
-        height: 40vh;
-        width: 100%
+        height: 35vh;
+        width: 100%;
     }
 
     .com_image3:hover{
-        height: 50vh;
+        height: 45vh;
         width: 100%;
         transition: 0.9s all;
     }
 
+    .com_image3:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image3:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+    .com_image4 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/small_snow.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 100%;
+
+    }
+
+    .com_image4:hover{
+        height: 45vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+    .com_image4:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image4:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+
+    .com_image5 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/counter.jpeg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 100%;
+    }
+
+    .com_image5:hover{
+        height: 45vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+
+    .com_image5:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image5:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
+    .com_image6 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/aga.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 35vh;
+        width: 100%;
+    }
+
+    .com_image6:hover{
+        height: 45vh;
+        width: 100%;
+        transition: 0.9s all;
+    }
+
+
+
+    .com_image6:hover .com_title_text {
+    font-family: AvenirNext-Bold;
+    font-size: 1.5rem;
+    font-size: 29px;
+    color: #FFFF;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    cursor:pointer;
+    border: solid 2px #cdd725;
+    background-color: #cdd725;
+    padding: 4vh 4vw;
+    transition: 0.9s all;
+    }
+
+    .com_image6:hover .com_white_text_reg {
+    font-family: AvenirNext-Regular;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    opacity:1;
+    transition: 2.5s all;
+    }
 }
+
+
 
 
 @media(min-width:992px) {
@@ -863,6 +1170,28 @@ a.nav-link {
         transition: 0.9s all;
     }
 
+    .com_image3:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        font-size: 29px;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #cdd725;
+        background-color: #cdd725;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image3:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
     .com_image4 {
         display:flex;
         flex-direction: column;
@@ -1914,7 +2243,7 @@ a.nav-link {
 .section_contact {
     width:100vw;
     /* height:75vh; */
-    padding-top: 5vh;
+    padding-top: 10vh;
     margin-bottom: 10vh
 }
 

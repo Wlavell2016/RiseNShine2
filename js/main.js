@@ -11,6 +11,13 @@ $('a[href*="#"]').click(function(e) {
 });
 
 
+$('.nav-link').click(function(event){
+    console.log('fired')
+    $('.nav-link').removeClass('active')
+    $(this).toggleClass('active')
+});
+
+
 $('#com_1').hover(function(event){
     console.log('fired')
     $('.commercial_button').removeClass('commercial_button_active')
