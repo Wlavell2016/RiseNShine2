@@ -199,31 +199,31 @@ $(document).ready(function() {
         if (scroll > viewportHeight) {
             if (window.matchMedia("(min-width: 992px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '61px').css('height', '71px').css('padding-top', '1vh')
+                $('a.navbar-brand img').attr('src', 'images/logo.png').css('width', '61px').css('height', '71px').css('padding-top', '1vh')
                 $('a.nav-link').css('color', '#9C9C9C')
 
             } else if (window.matchMedia("(min-width: 768px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '61px').css('height', '71px').css('padding-top', '2vh')
+                $('a.navbar-brand img').attr('src', 'images/logo.png').css('width', '61px').css('height', '71px').css('padding-top', '2vh')
             } else if (window.matchMedia("(min-width: 300px)").matches) {
                 $(".navbar").addClass('nav3')
-                $('a.navbar-brand img').attr('src', 'images/logo/logo.png').css('width', '51px').css('height', '61px').css('padding-top', '2vh')
+                $('a.navbar-brand img').attr('src', 'images/logo.png').css('width', '51px').css('height', '61px').css('padding-top', '2vh')
             } else {
                 console.log('ok')
             }
         } else {
             if (window.matchMedia("(min-width: 992px)").matches) {
                 $(".navbar").removeClass("nav3");
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '111px').css('height', '110px').css('padding-top', '2vh')
+                $('a.navbar-brand img').attr('src', 'images/logo.png').css('width', '111px').css('height', '110px').css('padding-top', '2vh')
                 $('a.nav-link').css('color', '#FFFF')
 
             } else if (window.matchMedia("(min-width: 768px)").matches) {
                 $(".navbar").removeClass("nav3");
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '111px').css('height', '110px').css('padding-top', '2vh')
+                $('a.navbar-brand img').attr('src', 'images/logo.png').css('width', '111px').css('height', '110px').css('padding-top', '2vh')
 
             } else if (window.matchMedia("(min-width: 300px)").matches) {
                 $(".navbar").removeClass("nav3");
-                $('a.navbar-brand img').attr('src', 'images/logo/Logo.png').css('width', '71px').css('height', '81px').css('padding-top', '2vh')
+                $('a.navbar-brand img').attr('src', 'images/logo.png').css('width', '71px').css('height', '81px').css('padding-top', '2vh')
 
             } else {
                 console.log('ok')
