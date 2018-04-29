@@ -71,9 +71,12 @@ img {
 .sonsie {
     font-family: 'Sonsie One', cursive;
     font-size: 2.563rem;
-    color: #419fd0;
+    color: ;
     text-align: center;
     -webkit-text-stroke: 1px white;
+    background: -webkit-linear-gradient(#FFF, #419fd0);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 }
 
