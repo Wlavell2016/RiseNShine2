@@ -82,113 +82,273 @@ $('#com_6').hover(function(event){
 // residential buttons
 
 
+// $('#res_1').hover(function(event){
+//     console.log('fired')
+//     $('.res_1').css('background-image', 'url("images/residential/leaves.jpeg")');
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+// });
+//
 $('#res_1').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/leaves.jpeg")');
+    $('.res_1').css('opacity', '1');
+    $('.res_2').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
-
+    // $(this).toggleClass('mov_image')
 });
 
 $('#res_2').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/snow2.jpeg")');
+    $('.res_2').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_3').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/squeegee.jpeg")');
+    $('.res_3').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_4').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/moving.jpeg")');
+    $('.res_4').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_5').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/power.jpeg")');
+    $('.res_5').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_6').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/construction.jpeg")');
+    $('.res_6').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_7').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/carpet.jpeg")');
+    $('.res_7').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_8').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/lights.jpeg")');
+    $('.res_8').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_9').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/sink1.jpeg")');
+    $('.res_9').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
+    $('.res_10').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
 
 $('#res_10').hover(function(event){
     console.log('fired')
-    $('.res_1').css('background-image', 'url("images/residential/mopping.jpeg")');
+    $('.res_10').css('opacity', '1');
+    $('.res_1').css('opacity', '0');
+    $('.res_3').css('opacity', '0');
+    $('.res_4').css('opacity', '0');
+    $('.res_5').css('opacity', '0');
+    $('.res_6').css('opacity', '0');
+    $('.res_7').css('opacity', '0');
+    $('.res_8').css('opacity', '0');
+    $('.res_9').css('opacity', '0');
+    $('.res_2').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
+//
+// $('#res_10').hover(function(event){
+//     console.log('fired')
+//     $('.res_1').css('background-image', 'url("images/residential/mopping.jpeg")');
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+// });
 
 
 // Moving
+
 $('#mov_1').hover(function(event){
     console.log('fired')
-    $('.mov_1').css('background-image', 'url("images/moving/bathroom.jpg")');
+    $('.mov_1').css('opacity', '1');
+    $('.mov_2').css('opacity', '0');
+    $('.mov_3').css('opacity', '0');
+    $('.mov_4').css('opacity', '0');
+    $('.mov_5').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
+    // $(this).toggleClass('mov_image')
 });
 
 $('#mov_2').hover(function(event){
     console.log('fired')
-    $('.mov_1').css('background-image', 'url("images/moving/broom.jpeg")');
+    $('.mov_2').css('opacity', '1');
+    $('.mov_1').css('opacity', '0');
+    $('.mov_3').css('opacity', '0');
+    $('.mov_4').css('opacity', '0');
+    $('.mov_5').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
+    // $(this).toggleClass('mov_image')
 });
 
 $('#mov_3').hover(function(event){
     console.log('fired')
-    $('.mov_1').css('background-image', 'url("images/moving/vacuuming.jpeg")');
+    $('.mov_3').css('opacity', '1');
+    $('.mov_1').css('opacity', '0');
+    $('.mov_2').css('opacity', '0');
+    $('.mov_4').css('opacity', '0');
+    $('.mov_5').css('opacity', '0');
+    $('#mov_3 .p_grey_small').css('color', 'white');
+
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
+    // $(this).toggleClass('mov_image')
 });
 
 $('#mov_4').hover(function(event){
     console.log('fired')
-    $('.mov_1').css('background-image', 'url("images/moving/walls.jpeg")');
+    $('.mov_4').css('opacity', '1');
+    $('.mov_1').css('opacity', '0');
+    $('.mov_3').css('opacity', '0');
+    $('.mov_2').css('opacity', '0');
+    $('.mov_5').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
+    // $(this).toggleClass('mov_image')
 });
 
 $('#mov_5').hover(function(event){
     console.log('fired')
-    $('.mov_1').css('background-image', 'url("images/moving/dusting.jpeg")');
+    $('.mov_5').css('opacity', '1');
+    $('.mov_1').css('opacity', '0');
+    $('.mov_3').css('opacity', '0');
+    $('.mov_4').css('opacity', '0');
+    $('.mov_2').css('opacity', '0');
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
+    // $(this).toggleClass('mov_image')
 });
+
+// $('#mov_2').hover(function(event){
+//     console.log('fired')
+//     $('.mov_2').css('background-image', 'url("images/moving/broom.jpeg")');
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+// });
+
+// $('#mov_3').hover(function(event){
+//     console.log('fired')
+//     $('.mov_3').css('background-image', 'url("images/moving/vacuuming.jpeg")');
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+// });
+//
+// $('#mov_4').hover(function(event){
+//     console.log('fired')
+//     $('.mov_4').css('background-image', 'url("images/moving/walls.jpeg")');
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+// });
+//
+// $('#mov_5').hover(function(event){
+//     console.log('fired')
+//     $('.mov_5').css('background-image', 'url("images/moving/dusting.jpeg")');
+//     $('.res_button').removeClass('residential_button_active')
+//     $(this).toggleClass('residential_button_active')
+// });
 
 
 // for updating nav bar color
