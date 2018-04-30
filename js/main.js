@@ -249,6 +249,8 @@ $('#res_10').hover(function(event){
     $('.res_button').removeClass('residential_button_active')
     $(this).toggleClass('residential_button_active')
 });
+
+
 //
 // $('#res_10').hover(function(event){
 //     console.log('fired')

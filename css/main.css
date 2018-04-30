@@ -15,8 +15,16 @@ html {
 
 @media(min-width:400px){
     html {
-        font-size: 15px;
+        font-size: 10px;
         }
+        .p_grey_small {
+            font-family: AvenirNext-Medium;
+            font-size: 1.3rem;
+            color: #777777;
+            letter-spacing: 0;
+            line-height: 1.438rem;
+        }
+
 }
 
 
@@ -104,6 +112,13 @@ img {
         font-size: 3.25rem;
         color: #FFFFFF;
         letter-spacing: 0;
+    }
+    .p_grey_small {
+        font-family: AvenirNext-Regular;
+        font-size: 1rem;
+        color: #6B6B6B;
+        letter-spacing: 0;
+        line-height: 26px;
     }
 }
 
@@ -216,13 +231,7 @@ img {
     line-height: 1.438rem;
 }
 
-.p_grey_small {
-    font-family: AvenirNext-Medium;
-    font-size: 1rem;
-    color: #777777;
-    letter-spacing: 0;
-    line-height: 1.438rem;
-}
+
 
 .p_grey_medium {
     font-family: AvenirNext-Medium;
@@ -232,13 +241,7 @@ img {
     line-height: 1.438rem;
 }
 
-.p_grey_small {
-    font-family: AvenirNext-Regular;
-    font-size: 1rem;
-    color: #6B6B6B;
-    letter-spacing: 0;
-    line-height: 26px;
-}
+
 .copyright {
     display:flex;
     flex-direction: row;
@@ -342,7 +345,6 @@ img {
 .scuba_title_text {
     font-family: AvenirNext-Bold;
     font-size: 1.5rem;
-    font-size: 29px;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -350,8 +352,7 @@ img {
 }
 .com_title_text {
     font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -610,7 +611,7 @@ a.nav-link {
 .com_image1 {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/buildingwindow.jpeg');
     background-size: cover;
@@ -628,8 +629,7 @@ a.nav-link {
 
 .com_image1:hover .com_title_text {
     font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -654,7 +654,7 @@ a.nav-link {
 .com_image2 {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/irata.jpg');
     background-size: cover;
@@ -672,8 +672,7 @@ a.nav-link {
 
 .com_image2:hover .com_title_text {
     font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -690,13 +689,13 @@ a.nav-link {
     color: #FFFFFF;
     letter-spacing: 0;
     opacity:1;
-    transition: 2.5s all;
+    transition: 0.9s all;
 }
 
 .com_image3 {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/power2.jpeg');
     background-size: cover;
@@ -713,8 +712,7 @@ a.nav-link {
 
 .com_image3:hover .com_title_text {
     font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -736,7 +734,7 @@ a.nav-link {
 .com_image4 {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/small_snow.jpg');
     background-size: cover;
@@ -754,8 +752,7 @@ a.nav-link {
 
 .com_image4:hover .com_title_text {
     font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -779,7 +776,7 @@ a.nav-link {
 .com_image5 {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/counter.jpeg');
     background-size: cover;
@@ -797,8 +794,7 @@ a.nav-link {
 
 .com_image5:hover .com_title_text {
     font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -821,7 +817,7 @@ a.nav-link {
 .com_image6 {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/aga.jpg');
     background-size: cover;
@@ -837,11 +833,9 @@ a.nav-link {
 }
 
 
-
 .com_image6:hover .com_title_text {
 font-family: AvenirNext-Bold;
-font-size: 1.5rem;
-font-size: 29px;
+font-size: 1.8125rem;
 color: #FFFF;
 letter-spacing: 0;
 text-transform: uppercase;
@@ -863,7 +857,7 @@ transition: 2.5s all;
 
 
 
-@media(min-width:572px) {
+ @media(min-width:572px) {
 
     .com_title_row {
         display:flex;
@@ -899,8 +893,7 @@ transition: 2.5s all;
 
     .com_image1:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -942,8 +935,7 @@ transition: 2.5s all;
 
     .com_image2:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -983,8 +975,7 @@ transition: 2.5s all;
 
     .com_image3:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1024,8 +1015,7 @@ transition: 2.5s all;
 
     .com_image4:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1049,7 +1039,7 @@ transition: 2.5s all;
     .com_image5 {
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/counter.jpeg');
         background-size: cover;
@@ -1067,8 +1057,7 @@ transition: 2.5s all;
 
     .com_image5:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1106,12 +1095,9 @@ transition: 2.5s all;
         transition: 0.9s all;
     }
 
-
-
     .com_image6:hover .com_title_text {
     font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -1145,7 +1131,7 @@ transition: 2.5s all;
     .com_image1 {
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/buildingwindow.jpeg');
         background-size: cover;
@@ -1163,8 +1149,7 @@ transition: 2.5s all;
 
     .com_image1:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1188,7 +1173,7 @@ transition: 2.5s all;
     .com_image2 {
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/irata.jpg');
         background-size: cover;
@@ -1201,13 +1186,14 @@ transition: 2.5s all;
         height: 35vh;
         width: 50vw;
         transition: 0.9s all;
+        justify-content: flex-end;
+
     }
 
 
-    .com_image2:hover .com_title_text {
+     .com_image2:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1218,7 +1204,7 @@ transition: 2.5s all;
         transition: 0.9s all;
     }
 
-    .com_image2:hover .com_white_text_reg {
+     .com_image2:hover .com_white_text_reg {
         font-family: AvenirNext-Regular;
         font-size: 1.25rem;
         color: #FFFFFF;
@@ -1230,7 +1216,7 @@ transition: 2.5s all;
     .com_image3 {
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/power2.jpeg');
         background-size: cover;
@@ -1247,8 +1233,7 @@ transition: 2.5s all;
 
     .com_image3:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1270,7 +1255,7 @@ transition: 2.5s all;
     .com_image4 {
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/small_snow.jpg');
         background-size: cover;
@@ -1288,8 +1273,7 @@ transition: 2.5s all;
 
     .com_image4:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1313,7 +1297,7 @@ transition: 2.5s all;
     .com_image5 {
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/counter.jpeg');
         background-size: cover;
@@ -1326,13 +1310,14 @@ transition: 2.5s all;
         height: 35vh;
         width: 50vw;
         transition: 0.9s all;
+        justify-content: center;
+
     }
 
 
     .com_image5:hover .com_title_text {
         font-family: AvenirNext-Bold;
-        font-size: 1.5rem;
-        font-size: 29px;
+        font-size: 1.8125rem;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -1355,7 +1340,7 @@ transition: 2.5s all;
     .com_image6 {
         display:flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/aga.jpg');
         background-size: cover;
@@ -1369,37 +1354,33 @@ transition: 2.5s all;
         width: 50vw;
         transition: 0.9s all;
     }
+    .com_image6:hover .com_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.8125rem;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #419fd0;
+        background-color: #419fd0;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .com_image6:hover .com_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
 }
 
 
-.com_image6:hover .com_title_text {
-    font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
-    color: #FFFF;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    cursor:pointer;
-    border: solid 2px #419fd0;
-    background-color: #419fd0;
-    padding: 4vh 4vw;
-    transition: 0.9s all;
-}
-
-.com_image6:hover .com_white_text_reg {
-    font-family: AvenirNext-Regular;
-    font-size: 1.25rem;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    opacity:1;
-    transition: 2.5s all;
-}
 
 
 /* About us  ******************************/
-
-
-
 
 
 
@@ -1623,7 +1604,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:1;
@@ -1637,7 +1618,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1651,7 +1632,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1665,7 +1646,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1679,7 +1660,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1693,7 +1674,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1707,7 +1688,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1722,7 +1703,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1736,7 +1717,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1750,7 +1731,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 85vh;
+    height: 55vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1847,9 +1828,11 @@ transition: 2.5s all;
 
 .moving_section {
     width:100vw;
-    margin-top: 10vh;
-    /* height: 100vh; */
+    margin-top: 20vh;
+    height: 80vh;
 }
+
+
 
 .moving-row {
     display:flex;
@@ -1893,7 +1876,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 65vh;
+    height: 40vh;
     width:100%;
     transition: 0.9s all;
     opacity:1;
@@ -1908,7 +1891,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 65vh;
+    height: 40vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1922,7 +1905,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     display:block;
-    height: 65vh;
+    height: 40vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1936,7 +1919,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     position:absolute;
-    height: 65vh;
+    height: 40vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1950,7 +1933,7 @@ transition: 2.5s all;
     left: 0;
     top: 0;
     position:absolute;
-    height: 65vh;
+    height: 40vh;
     width:100%;
     transition: 0.9s all;
     opacity:0;
@@ -1982,7 +1965,11 @@ transition: 2.5s all;
 }
 
 @media(min-width:576px){
-
+    .moving_section {
+        width:100vw;
+        margin-top: 10vh;
+        height: 65vh;
+    }
     .mov_image {
         height: 40vh;
     }
@@ -2026,6 +2013,11 @@ transition: 2.5s all;
 
     .mov_image {
         height: 65vh;
+    }
+    .moving_section {
+        width:100vw;
+        margin-top: 20vh;
+        height: 100vh;
     }
 
     .moving_button_col .p_grey_small {
@@ -2144,7 +2136,6 @@ transition: 2.5s all;
 .scuba_image1:hover .scuba_title_text {
     font-family: AvenirNext-Bold;
     font-size: 1.5rem;
-    font-size: 29px;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -2187,7 +2178,6 @@ transition: 2.5s all;
 .scuba_image2:hover .scuba_title_text {
     font-family: AvenirNext-Bold;
     font-size: 1.5rem;
-    font-size: 29px;
     color: #FFFF;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -2264,7 +2254,6 @@ transition: 2.5s all;
     .scuba_image1:hover .scuba_title_text {
         font-family: AvenirNext-Bold;
         font-size: 1.5rem;
-        font-size: 29px;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -2307,7 +2296,6 @@ transition: 2.5s all;
     .scuba_image2:hover .scuba_title_text {
         font-family: AvenirNext-Bold;
         font-size: 1.5rem;
-        font-size: 29px;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -2343,6 +2331,28 @@ transition: 2.5s all;
         height: 50vh;
         width: 100%;
         transition: 0.9s all;
+    }
+
+    .scuba_image3:hover .scuba_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #419fd0;
+        background-color: #419fd0;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .scuba_image3:hover .scuba_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
     }
 
     .scuba_title .title_black_uppercase {
@@ -2395,7 +2405,6 @@ transition: 2.5s all;
     .scuba_image1:hover .scuba_title_text {
         font-family: AvenirNext-Bold;
         font-size: 1.5rem;
-        font-size: 29px;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -2438,7 +2447,6 @@ transition: 2.5s all;
     .scuba_image2:hover .scuba_title_text {
         font-family: AvenirNext-Bold;
         font-size: 1.5rem;
-        font-size: 29px;
         color: #FFFF;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -2470,6 +2478,28 @@ transition: 2.5s all;
         width: 34vw;
     }
 
+    .scuba_image3:hover .scuba_title_text {
+        font-family: AvenirNext-Bold;
+        font-size: 1.5rem;
+        color: #FFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        cursor:pointer;
+        border: solid 2px #419fd0;
+        background-color: #419fd0;
+        padding: 4vh 4vw;
+        transition: 0.9s all;
+    }
+
+    .scuba_image3:hover .scuba_white_text_reg {
+        font-family: AvenirNext-Regular;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        opacity:1;
+        transition: 2.5s all;
+    }
+
     .scuba_image3:hover{
         height: 60vh;
         width: 50vw;
@@ -2479,28 +2509,6 @@ transition: 2.5s all;
 }
 
 
-.scuba_image3:hover .scuba_title_text {
-    font-family: AvenirNext-Bold;
-    font-size: 1.5rem;
-    font-size: 29px;
-    color: #FFFF;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    cursor:pointer;
-    border: solid 2px #419fd0;
-    background-color: #419fd0;
-    padding: 4vh 4vw;
-    transition: 0.9s all;
-}
-
-.scuba_image3:hover .scuba_white_text_reg {
-    font-family: AvenirNext-Regular;
-    font-size: 1.25rem;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    opacity:1;
-    transition: 2.5s all;
-}
 
 
 .section_testimonial {
